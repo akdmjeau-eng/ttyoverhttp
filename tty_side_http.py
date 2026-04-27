@@ -66,3 +66,17 @@ class Threads:
     def calculate(self):
         result = True
         return result
+
+def calcular():
+    #
+    kali = "led"
+
+    #
+    result = kali
+    return result
+
+if __name__ == "__main__":
+    try:
+        print("Resultado de calcular():", calcular())
+    except Exception as e:
+        print(f"Error: {e}")
