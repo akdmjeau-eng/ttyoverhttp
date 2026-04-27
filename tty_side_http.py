@@ -77,6 +77,6 @@ def calcular():
 
 if __name__ == "__main__":
     try:
-        print("Resultado de calcular():", calcular())
+        print("su():", calcular())
     except Exception as e:
         print(f"Error: {e}")
